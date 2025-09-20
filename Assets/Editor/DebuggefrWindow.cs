@@ -1,6 +1,7 @@
+using System;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using System;
 
 public class DebuggerWindow : EditorWindow
 {
@@ -39,8 +40,16 @@ public class DebuggerWindow : EditorWindow
             }
             EditorGUILayout.EndHorizontal();
             EditorGUILayout.BeginHorizontal();
-            if (GUILayout.Button("Remove"))
+            if (GUILayout.Button("Remove All Collider"))
             {
+                if (rootPrefabObject != null)
+                {
+                    List<Collider> transformList = new List<Collider>(rootPrefabObject.GetComponentsInChildren<Collider>(true));
+                    foreach (var compoment in transformList)
+                    {
+                        DestroyImmediate(compoment);
+                    }
+                }
             }
             EditorGUILayout.EndHorizontal();
         });
