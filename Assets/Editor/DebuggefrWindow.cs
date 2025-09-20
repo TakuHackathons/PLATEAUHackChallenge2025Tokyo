@@ -44,11 +44,19 @@ public class DebuggerWindow : EditorWindow
             {
                 if (rootPrefabObject != null)
                 {
+                    AssetDatabase.StartAssetEditing();
                     List<Collider> transformList = new List<Collider>(rootPrefabObject.GetComponentsInChildren<Collider>(true));
                     foreach (var compoment in transformList)
                     {
-                        DestroyImmediate(compoment);
+                        DestroyImmediate(compoment, true);
                     }
+                    AssetDatabase.StopAssetEditing();
+                    foreach (var compoment in transformList)
+                    {
+                        EditorUtility.SetDirty(compoment);
+                    }
+                    AssetDatabase.SaveAssets();
+                    AssetDatabase.Refresh();
                 }
             }
             EditorGUILayout.EndHorizontal();
