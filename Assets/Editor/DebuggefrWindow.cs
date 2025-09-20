@@ -45,15 +45,19 @@ public class DebuggerWindow : EditorWindow
                 if (rootPrefabObject != null)
                 {
                     AssetDatabase.StartAssetEditing();
-                    List<Collider> transformList = new List<Collider>(rootPrefabObject.GetComponentsInChildren<Collider>(true));
-                    foreach (var compoment in transformList)
+                    List<Transform> transformList = new List<Transform>(rootPrefabObject.GetComponentsInChildren<Transform>(true));
+                    foreach (var child in transformList)
                     {
-                        DestroyImmediate(compoment, true);
+                        var compoment = child.GetComponent<Collider>();
+                        if (compoment != null)
+                        {
+                            GameObject.DestroyImmediate(compoment, true);
+                        }
                     }
                     AssetDatabase.StopAssetEditing();
-                    foreach (var compoment in transformList)
+                    foreach (var child in transformList)
                     {
-                        EditorUtility.SetDirty(compoment);
+                        EditorUtility.SetDirty(child);
                     }
                     AssetDatabase.SaveAssets();
                     AssetDatabase.Refresh();
