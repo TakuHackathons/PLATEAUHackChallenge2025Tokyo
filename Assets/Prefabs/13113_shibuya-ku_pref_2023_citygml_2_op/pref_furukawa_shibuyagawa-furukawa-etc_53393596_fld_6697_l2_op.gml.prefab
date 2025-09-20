@@ -76,7 +76,6 @@ GameObject:
   - component: {fileID: 8811446354165293694}
   - component: {fileID: 7094251268735764371}
   - component: {fileID: 285309902362653736}
-  - component: {fileID: 5803891546579513699}
   - component: {fileID: 5397242826607421731}
   m_Layer: 0
   m_Name: fld_b25137e1-2a73-4574-9179-aa92257ab9c7
@@ -153,28 +152,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5803891546579513699
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5814234873967422779}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!114 &5397242826607421731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +208,6 @@ GameObject:
   - component: {fileID: 7178453228992373011}
   - component: {fileID: 8509653767565356196}
   - component: {fileID: 8407904432958329813}
-  - component: {fileID: 5380759025400001484}
   - component: {fileID: 2331051544002908992}
   m_Layer: 0
   m_Name: fld_11c41d84-3110-48a7-8b17-959bdb612ccf
@@ -308,28 +284,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5380759025400001484
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8666380047587271922}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!114 &2331051544002908992
 MonoBehaviour:
   m_ObjectHideFlags: 0

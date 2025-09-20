@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -33,7 +35,7 @@ public class DebuggerWindow : EditorWindow
             EditorGUILayout.Space();
             EditorGUILayout.BeginHorizontal();
             prefabRootDirectoryPath = (string)EditorGUILayout.TextField(prefabRootDirectoryPath);
-            GameObject rootPrefabObject = (GameObject) EditorGUILayout.ObjectField(AssetDatabase.LoadAssetAtPath<GameObject>(prefabRootDirectoryPath), typeof(GameObject), true);
+            UnityEngine.Object rootPrefabObject = EditorGUILayout.ObjectField(AssetDatabase.LoadAssetAtPath<UnityEngine.Object>(prefabRootDirectoryPath), typeof(UnityEngine.Object), true);
             if (rootPrefabObject != null)
             {
                 prefabRootDirectoryPath = AssetDatabase.GetAssetPath(rootPrefabObject);
@@ -44,23 +46,32 @@ public class DebuggerWindow : EditorWindow
             {
                 if (rootPrefabObject != null)
                 {
-                    AssetDatabase.StartAssetEditing();
-                    List<Transform> transformList = new List<Transform>(rootPrefabObject.GetComponentsInChildren<Transform>(true));
-                    foreach (var child in transformList)
+                    List<string> prefabFilePaths = FindAllThreedSearchDirectory(prefabRootDirectoryPath, "prefab");
+                    foreach (var prefabPath in prefabFilePaths)
                     {
-                        var compoment = child.GetComponent<Collider>();
-                        if (compoment != null)
+                        var prefabObject = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
+                        if (prefabObject == null)
                         {
-                            GameObject.DestroyImmediate(compoment, true);
+                            continue;
                         }
+                        AssetDatabase.StartAssetEditing();
+                        List<Transform> transformList = new List<Transform>(prefabObject.GetComponentsInChildren<Transform>(true));
+                        foreach (var child in transformList)
+                        {
+                            var compoment = child.GetComponent<Collider>();
+                            if (compoment != null)
+                            {
+                                GameObject.DestroyImmediate(compoment, true);
+                            }
+                        }
+                        AssetDatabase.StopAssetEditing();
+                        foreach (var child in transformList)
+                        {
+                            EditorUtility.SetDirty(child);
+                        }
+                        AssetDatabase.SaveAssets();
+                        AssetDatabase.Refresh();
                     }
-                    AssetDatabase.StopAssetEditing();
-                    foreach (var child in transformList)
-                    {
-                        EditorUtility.SetDirty(child);
-                    }
-                    AssetDatabase.SaveAssets();
-                    AssetDatabase.Refresh();
                 }
             }
             EditorGUILayout.EndHorizontal();
@@ -83,5 +94,21 @@ public class DebuggerWindow : EditorWindow
         }
         EditorGUILayout.EndVertical();
         EditorGUILayout.Space();
+    }
+
+    private List<string> FindAllThreedSearchDirectory(string searchRootDirectory, string extension)
+    {
+        List<string> seachedFilePathes = new List<string>();
+        string[] pathes = AssetDatabase.GetAllAssetPaths();
+        for (int i = 0; i < pathes.Length; ++i)
+        {
+            string path = pathes[i];
+            Match match = Regex.Match(path.ToLower(), @"" + searchRootDirectory.ToLower() + ".+." + extension);
+            if (match.Success)
+            {
+                seachedFilePathes.Add(path);
+            }
+        }
+        return seachedFilePathes;
     }
 }
