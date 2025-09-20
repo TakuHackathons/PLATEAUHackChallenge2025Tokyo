@@ -1,0 +1,2416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &565260412563246942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7735156552269594729}
+  m_Layer: 0
+  m_Name: 533935_lsld_6697_op.gml
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7735156552269594729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565260412563246942}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2839542391684832483}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &765848689597738170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4549373846987187591}
+  - component: {fileID: 552047096359642870}
+  - component: {fileID: 7034555555569411653}
+  - component: {fileID: 1165370248075563864}
+  - component: {fileID: 7233540666472444483}
+  m_Layer: 0
+  m_Name: lsld_56b79b83-6a72-4b8e-aa24-a88d4fed5d51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4549373846987187591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765848689597738170}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &552047096359642870
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765848689597738170}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7034555555569411653
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765848689597738170}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1165370248075563864
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765848689597738170}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &7233540666472444483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765848689597738170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_56b79b83-6a72-4b8e-aa24-a88d4fed5d51\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u99D2\u5834\u4E00\u4E01\u76EE\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n        {\r\n          \"key\":
+    \"urf:status\",\r\n          \"type\": \"String\",\r\n          \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K001\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &1246714347486286552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5671668981882883647}
+  - component: {fileID: 6047952560977961045}
+  - component: {fileID: 6949960765237841876}
+  - component: {fileID: 9163104418777588222}
+  - component: {fileID: 5144584778807379235}
+  m_Layer: 0
+  m_Name: lsld_cee9ad82-e690-4560-b2aa-5c8cdc8e8d07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5671668981882883647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246714347486286552}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6047952560977961045
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246714347486286552}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6949960765237841876
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246714347486286552}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9163104418777588222
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246714347486286552}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &5144584778807379235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246714347486286552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_cee9ad82-e690-4560-b2aa-5c8cdc8e8d07\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u7279\u5225\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u5927\u6A4B\u4E8C\u4E01\u76EE\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n        {\r\n          \"key\":
+    \"urf:status\",\r\n          \"type\": \"String\",\r\n          \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K005\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &1434103365988410537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3897311981550813452}
+  - component: {fileID: 323282596276610985}
+  - component: {fileID: 8094685023657581806}
+  - component: {fileID: 6073910445249392764}
+  - component: {fileID: 4134563126862424129}
+  m_Layer: 0
+  m_Name: lsld_f3b0c9be-23bb-486b-a0e3-abc1231307a0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3897311981550813452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434103365988410537}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &323282596276610985
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434103365988410537}
+  m_Mesh: {fileID: 0}
+--- !u!23 &8094685023657581806
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434103365988410537}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6073910445249392764
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434103365988410537}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4134563126862424129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434103365988410537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_f3b0c9be-23bb-486b-a0e3-abc1231307a0\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u7279\u5225\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6E0B\u8C37\u533A\u795E\u5C71\u753A\u3001\u5BCC\u30F6\u8C37\u4E00\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2019-09-26\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"113001-K008\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &1811045864096174722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5143596109355303565}
+  - component: {fileID: 5889052400952877743}
+  - component: {fileID: 4879019078691555260}
+  - component: {fileID: 8302346004604827722}
+  - component: {fileID: 8408905104355208835}
+  m_Layer: 0
+  m_Name: lsld_55170a9b-d1c3-4f47-a999-d5c5e3483100
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5143596109355303565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811045864096174722}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5889052400952877743
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811045864096174722}
+  m_Mesh: {fileID: 0}
+--- !u!23 &4879019078691555260
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811045864096174722}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8302346004604827722
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811045864096174722}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &8408905104355208835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811045864096174722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_55170a9b-d1c3-4f47-a999-d5c5e3483100\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u7279\u5225\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E8C\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K010\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &2127008265532492675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2839542391684832483}
+  m_Layer: 0
+  m_Name: LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2839542391684832483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127008265532492675}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4549373846987187591}
+  - {fileID: 3000499514848968409}
+  - {fileID: 3728573603054969531}
+  - {fileID: 8084403529519291439}
+  - {fileID: 5624116421196956832}
+  - {fileID: 5066318218934925441}
+  - {fileID: 1723499277983105091}
+  - {fileID: 83805733042047552}
+  - {fileID: 8393091736536793149}
+  - {fileID: 5671668981882883647}
+  - {fileID: 2568386822768716562}
+  - {fileID: 1537445912613208061}
+  - {fileID: 5143596109355303565}
+  - {fileID: 9003033791782630990}
+  - {fileID: 3897311981550813452}
+  m_Father: {fileID: 7735156552269594729}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2128117249963275043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9003033791782630990}
+  - component: {fileID: 4810224960118642208}
+  - component: {fileID: 8011456896822500761}
+  - component: {fileID: 2525482864119313330}
+  - component: {fileID: 6445946565763910256}
+  m_Layer: 0
+  m_Name: lsld_b8fd7ed6-e803-4e36-9216-842665decf34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &9003033791782630990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128117249963275043}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4810224960118642208
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128117249963275043}
+  m_Mesh: {fileID: 0}
+--- !u!23 &8011456896822500761
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128117249963275043}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2525482864119313330
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128117249963275043}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &6445946565763910256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128117249963275043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_b8fd7ed6-e803-4e36-9216-842665decf34\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u7279\u5225\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E8C\u4E01\u76EE\u3001\u9752\u8449\u53F0\u4E00\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K011\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &3492722239343818056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723499277983105091}
+  - component: {fileID: 4637848803431252849}
+  - component: {fileID: 5923002144727858977}
+  - component: {fileID: 1201813029203184279}
+  - component: {fileID: 7789790049193906559}
+  m_Layer: 0
+  m_Name: lsld_0e3dd76e-ccba-4414-bbc7-11c39f05ac75
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1723499277983105091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492722239343818056}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4637848803431252849
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492722239343818056}
+  m_Mesh: {fileID: 0}
+--- !u!23 &5923002144727858977
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492722239343818056}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1201813029203184279
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492722239343818056}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &7789790049193906559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492722239343818056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_0e3dd76e-ccba-4414-bbc7-11c39f05ac75\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E8C\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K010\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &4306373304669133930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3000499514848968409}
+  - component: {fileID: 9075340505840727726}
+  - component: {fileID: 7187565639213161003}
+  - component: {fileID: 8616977824232559706}
+  - component: {fileID: 4336007122480582272}
+  m_Layer: 0
+  m_Name: lsld_44f72876-2b58-422c-b51f-378e6c37bdf1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3000499514848968409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306373304669133930}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9075340505840727726
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306373304669133930}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7187565639213161003
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306373304669133930}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8616977824232559706
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306373304669133930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4336007122480582272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306373304669133930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_44f72876-2b58-422c-b51f-378e6c37bdf1\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u5927\u6A4B\u4E8C\u4E01\u76EE\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n        {\r\n          \"key\":
+    \"urf:status\",\r\n          \"type\": \"String\",\r\n          \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K005\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &5074649958082508734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8393091736536793149}
+  - component: {fileID: 7808373393137565668}
+  - component: {fileID: 3056903914324540636}
+  - component: {fileID: 8211802231580673143}
+  - component: {fileID: 7263168272574432379}
+  m_Layer: 0
+  m_Name: lsld_966e547b-98b0-4a64-a9ae-f8b6bcd2cd32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8393091736536793149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074649958082508734}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7808373393137565668
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074649958082508734}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3056903914324540636
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074649958082508734}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8211802231580673143
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074649958082508734}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &7263168272574432379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074649958082508734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_966e547b-98b0-4a64-a9ae-f8b6bcd2cd32\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6E0B\u8C37\u533A\u795E\u5C71\u753A\u3001\u5BCC\u30F6\u8C37\u4E00\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2019-09-26\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"113001-K008\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &6370966855898708992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5066318218934925441}
+  - component: {fileID: 6391538946498133897}
+  - component: {fileID: 7684338454251817748}
+  - component: {fileID: 1633267785561083491}
+  - component: {fileID: 194121530915111364}
+  m_Layer: 0
+  m_Name: lsld_da9adf79-5177-475e-b314-93c29e6c63b6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5066318218934925441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370966855898708992}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6391538946498133897
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370966855898708992}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7684338454251817748
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370966855898708992}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1633267785561083491
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370966855898708992}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &194121530915111364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370966855898708992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_da9adf79-5177-475e-b314-93c29e6c63b6\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E09\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K009\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &6650770049661179364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5624116421196956832}
+  - component: {fileID: 7309554827236826353}
+  - component: {fileID: 1816275224481751966}
+  - component: {fileID: 9055578754246130203}
+  - component: {fileID: 3595882596548278775}
+  m_Layer: 0
+  m_Name: lsld_f4328d3d-d6da-4b49-8a9c-38e27a2c07d5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5624116421196956832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650770049661179364}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7309554827236826353
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650770049661179364}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1816275224481751966
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650770049661179364}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9055578754246130203
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650770049661179364}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &3595882596548278775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6650770049661179364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_f4328d3d-d6da-4b49-8a9c-38e27a2c07d5\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E09\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K008\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &6780027692541020360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8084403529519291439}
+  - component: {fileID: 4558046644590352707}
+  - component: {fileID: 7135094254093829485}
+  - component: {fileID: 945268022444990926}
+  - component: {fileID: 6642014592252741244}
+  m_Layer: 0
+  m_Name: lsld_b0023c27-8ffe-4a2a-8b00-264d29dec519
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8084403529519291439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780027692541020360}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4558046644590352707
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780027692541020360}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7135094254093829485
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780027692541020360}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &945268022444990926
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780027692541020360}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &6642014592252741244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780027692541020360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_b0023c27-8ffe-4a2a-8b00-264d29dec519\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E09\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K007\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &6817392882008940773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2568386822768716562}
+  - component: {fileID: 2889671406328306198}
+  - component: {fileID: 8232199399037711231}
+  - component: {fileID: 3888542327267411595}
+  - component: {fileID: 7416511979908032221}
+  m_Layer: 0
+  m_Name: lsld_0c247a5f-f466-456f-aa07-2c2eae3e01bd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2568386822768716562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817392882008940773}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2889671406328306198
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817392882008940773}
+  m_Mesh: {fileID: 0}
+--- !u!23 &8232199399037711231
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817392882008940773}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3888542327267411595
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817392882008940773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &7416511979908032221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817392882008940773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_0c247a5f-f466-456f-aa07-2c2eae3e01bd\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u7279\u5225\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E09\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K008\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &7121911688132443547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3728573603054969531}
+  - component: {fileID: 3836628360636919710}
+  - component: {fileID: 7081186019144131598}
+  - component: {fileID: 7123943111973506867}
+  - component: {fileID: 6593320966087428731}
+  m_Layer: 0
+  m_Name: lsld_496b2c5f-be8c-4558-915a-8333039ecc53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3728573603054969531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121911688132443547}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3836628360636919710
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121911688132443547}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7081186019144131598
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121911688132443547}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7123943111973506867
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121911688132443547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &6593320966087428731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121911688132443547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_496b2c5f-be8c-4558-915a-8333039ecc53\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u5927\u6A4B\u4E8C\u4E01\u76EE\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n        {\r\n          \"key\":
+    \"urf:status\",\r\n          \"type\": \"String\",\r\n          \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K006\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &7491671606596397460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83805733042047552}
+  - component: {fileID: 1337384657438443171}
+  - component: {fileID: 6417107839608749394}
+  - component: {fileID: 6252506466013255304}
+  - component: {fileID: 5271357504521574094}
+  m_Layer: 0
+  m_Name: lsld_555f4e1a-459c-4796-991c-e924781f5b9f
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &83805733042047552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491671606596397460}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1337384657438443171
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491671606596397460}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6417107839608749394
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491671606596397460}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6252506466013255304
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491671606596397460}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &5271357504521574094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491671606596397460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_555f4e1a-459c-4796-991c-e924781f5b9f\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E8C\u4E01\u76EE\u3001\u9752\u8449\u53F0\u4E00\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K011\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &9153979738894357003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537445912613208061}
+  - component: {fileID: 5904817943143550064}
+  - component: {fileID: 8532324265793272252}
+  - component: {fileID: 7249344867582574653}
+  - component: {fileID: 2903453957062916220}
+  m_Layer: 0
+  m_Name: lsld_a405c3a1-a7b5-4356-b38a-9ff45f97c3c1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1537445912613208061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153979738894357003}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2839542391684832483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5904817943143550064
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153979738894357003}
+  m_Mesh: {fileID: 0}
+--- !u!23 &8532324265793272252
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153979738894357003}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7249344867582574653
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153979738894357003}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &2903453957062916220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153979738894357003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"lsld_a405c3a1-a7b5-4356-b38a-9ff45f97c3c1\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Unknown\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:areaType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u571F\u7802\u707D\u5BB3\u7279\u5225\u8B66\u6212\u533A\u57DF\uFF08\u6307\u5B9A\u6E08\uFF09\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:dataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:disasterType\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6025\u50BE\u659C\u5730\u306E\u5D29\u843D\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:location\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u76EE\u9ED2\u533A\u9752\u8449\u53F0\u4E09\u4E01\u76EE\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:prefecture\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u6771\u4EAC\u90FD\"\r\n        },\r\n       
+    {\r\n          \"key\": \"urf:status\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u7279\u5225\u8B66\u6212\u533A\u57DF\u6307\u5B9A\u6E08\u307F\"\r\n       
+    },\r\n        {\r\n          \"key\": \"urf:validFrom\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2018-05-31\"\r\n        },\r\n        {\r\n         
+    \"key\": \"urf:zoneName\",\r\n          \"type\": \"String\",\r\n          \"value\":
+    \"Null\"\r\n        },\r\n        {\r\n          \"key\": \"urf:zoneNumber\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"110001-K009\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1

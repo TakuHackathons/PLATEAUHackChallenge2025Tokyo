@@ -1,0 +1,3448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &299557025443571041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1289661408158592874}
+  - component: {fileID: 7581060936769888662}
+  - component: {fileID: 3323584363911121013}
+  - component: {fileID: 131132187983813127}
+  - component: {fileID: 413643319307628407}
+  m_Layer: 0
+  m_Name: brid_3ecb17d8-f306-4dff-9a0a-5187e9ffb82c
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1289661408158592874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299557025443571041}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7581060936769888662
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299557025443571041}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3323584363911121013
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299557025443571041}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &131132187983813127
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299557025443571041}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &413643319307628407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299557025443571041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_3ecb17d8-f306-4dff-9a0a-5187e9ffb82c\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"face_d92bdc4a-e7e2-4944-bebb-6b08589d9d23\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterFloorSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_57a4ddf0-907b-4cb2-bd0d-a84baa8f99f6\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            1\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_RoofSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_5eedd877-56b7-45ed-ba1b-b55b26061176\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            2\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_GroundSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_22b41a63-750b-40b5-9473-dfd2a4c3598a\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            3\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_ed17af1a-f8f7-4094-9e2d-8c86e5fd7b0f\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            4\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        }\r\n      ],\r\n      \"attributes\": [\r\n       
+    {\r\n          \"key\": \"brid:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u4E0D\u660E\"\r\n        },\r\n        {\r\n          \"key\":
+    \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n          \"value\":
+    \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &1071559226198991340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5098446829034253468}
+  - component: {fileID: 4793996416696935383}
+  - component: {fileID: 9137601334076786548}
+  - component: {fileID: 199418575119510794}
+  - component: {fileID: 6553032274534065810}
+  m_Layer: 0
+  m_Name: brid_cf3122ad-2e2b-437e-a15f-bbc26491765f_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5098446829034253468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071559226198991340}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4793996416696935383
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071559226198991340}
+  m_Mesh: {fileID: 0}
+--- !u!23 &9137601334076786548
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071559226198991340}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &199418575119510794
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071559226198991340}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &6553032274534065810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071559226198991340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_cf3122ad-2e2b-437e-a15f-bbc26491765f_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &1155274995693771217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6437753939863085622}
+  - component: {fileID: 4590933803957751795}
+  - component: {fileID: 258718151006730594}
+  - component: {fileID: 9169776317971544075}
+  - component: {fileID: 1226772884327332326}
+  m_Layer: 0
+  m_Name: brid_3d90539c-7fa2-482a-a7f9-3ba7ed853d6a_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6437753939863085622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155274995693771217}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4590933803957751795
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155274995693771217}
+  m_Mesh: {fileID: 0}
+--- !u!23 &258718151006730594
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155274995693771217}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9169776317971544075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155274995693771217}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1226772884327332326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155274995693771217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_3d90539c-7fa2-482a-a7f9-3ba7ed853d6a_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &1248510500930806001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2008113569672139799}
+  - component: {fileID: 1442935100988071472}
+  - component: {fileID: 6053576768536223673}
+  - component: {fileID: 2792494750145591077}
+  - component: {fileID: 4488276681972313990}
+  m_Layer: 0
+  m_Name: brid_70ed0764-9cb2-4b3a-beba-653ae5d5d6cf_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2008113569672139799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248510500930806001}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1442935100988071472
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248510500930806001}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6053576768536223673
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248510500930806001}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2792494750145591077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248510500930806001}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4488276681972313990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248510500930806001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_70ed0764-9cb2-4b3a-beba-653ae5d5d6cf_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &1258901314603082688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1649389903501918313}
+  m_Layer: 0
+  m_Name: LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1649389903501918313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258901314603082688}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3863145133512153064}
+  - {fileID: 5944804351099355519}
+  - {fileID: 1289661408158592874}
+  - {fileID: 7403940263761627764}
+  - {fileID: 4409761416707447673}
+  - {fileID: 8919345438645992349}
+  - {fileID: 251364662593716777}
+  - {fileID: 7274114020824649520}
+  - {fileID: 3895540512117827193}
+  - {fileID: 8286701497208666262}
+  - {fileID: 1572714566085345953}
+  - {fileID: 5599951047871039934}
+  - {fileID: 4645434492199697908}
+  - {fileID: 8322110081314729063}
+  - {fileID: 2008113569672139799}
+  - {fileID: 5098446829034253468}
+  - {fileID: 3424629803965242816}
+  - {fileID: 6437753939863085622}
+  - {fileID: 6343131407987594682}
+  - {fileID: 1631335453367812940}
+  - {fileID: 4680920146576902500}
+  - {fileID: 5626611871400885311}
+  m_Father: {fileID: 5483966641956129330}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1267686778393986192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3424629803965242816}
+  - component: {fileID: 5268879868464806937}
+  - component: {fileID: 7755971309733111108}
+  - component: {fileID: 7356214198857856388}
+  - component: {fileID: 6185456225103410284}
+  m_Layer: 0
+  m_Name: brid_d2553f7e-db51-465d-b6a7-b2f904ce35d4_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3424629803965242816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267686778393986192}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5268879868464806937
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267686778393986192}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7755971309733111108
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267686778393986192}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7356214198857856388
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267686778393986192}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &6185456225103410284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267686778393986192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_d2553f7e-db51-465d-b6a7-b2f904ce35d4_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &2078236723975295411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4680920146576902500}
+  - component: {fileID: 6067288616676627736}
+  - component: {fileID: 6373845990141055126}
+  - component: {fileID: 5497459382610669335}
+  - component: {fileID: 1537206775935284554}
+  m_Layer: 0
+  m_Name: brid_3c670889-a497-47a6-bc88-15f1ff162c78_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4680920146576902500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078236723975295411}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6067288616676627736
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078236723975295411}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6373845990141055126
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078236723975295411}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5497459382610669335
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078236723975295411}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1537206775935284554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078236723975295411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_3c670889-a497-47a6-bc88-15f1ff162c78_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &2620978253447733400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4409761416707447673}
+  - component: {fileID: 3953588589731755710}
+  - component: {fileID: 5942470438452465912}
+  - component: {fileID: 2334456129101318898}
+  - component: {fileID: 2199683749044048178}
+  m_Layer: 0
+  m_Name: brid_69dff6f7-a7eb-4dbc-b579-262ef95bea78
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4409761416707447673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2620978253447733400}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3953588589731755710
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2620978253447733400}
+  m_Mesh: {fileID: 0}
+--- !u!23 &5942470438452465912
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2620978253447733400}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2334456129101318898
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2620978253447733400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &2199683749044048178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2620978253447733400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_69dff6f7-a7eb-4dbc-b579-262ef95bea78\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"face_6c90579b-3343-4cc1-b388-8b748d874b65\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_RoofSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_edcf2489-445f-453d-9079-dd03fe72a489\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            1\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterFloorSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_98152ba0-7e44-4635-a5a0-5e3d3b68dcc8\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_ddfaa4d9-d3ec-47cb-ae10-25b0e72c842f\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            3\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_a0c27001-98e4-445c-bfb0-2c08237fa11b\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            4\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_GroundSurface\"\r\n        }\r\n      ],\r\n      \"attributes\": [\r\n       
+    {\r\n          \"key\": \"brid:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u4E0D\u660E\"\r\n        },\r\n        {\r\n          \"key\":
+    \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n          \"value\":
+    \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &2644262081326561428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7403940263761627764}
+  - component: {fileID: 8370275622681970592}
+  - component: {fileID: 4715762614887202001}
+  - component: {fileID: 2383301587682720210}
+  - component: {fileID: 910734494033725886}
+  m_Layer: 0
+  m_Name: brid_cf3122ad-2e2b-437e-a15f-bbc26491765f
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7403940263761627764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644262081326561428}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8370275622681970592
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644262081326561428}
+  m_Mesh: {fileID: 0}
+--- !u!23 &4715762614887202001
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644262081326561428}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2383301587682720210
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644262081326561428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &910734494033725886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644262081326561428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_cf3122ad-2e2b-437e-a15f-bbc26491765f\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_cf3122ad-2e2b-437e-a15f-bbc26491765f_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_e9a6e260-2be1-49d8-aa84-65298657097e\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterFloorSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_0b0677f6-1faf-4cfc-8667-af65b0fae27d\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_9a4a7134-89ab-4e0c-9cce-0d24b03ba6c2\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            3\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        }\r\n      ],\r\n      \"attributes\": [\r\n       
+    {\r\n          \"key\": \"brid:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6A2A\u65AD\u6B69\u9053\u6A4B\"\r\n        },\r\n        {\r\n         
+    \"key\": \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n         
+    \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &2997797747087481123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8286701497208666262}
+  - component: {fileID: 5395243310053718192}
+  - component: {fileID: 1198642181321114625}
+  - component: {fileID: 5761583359139220930}
+  - component: {fileID: 1727618160743797215}
+  m_Layer: 0
+  m_Name: brid_42032bf9-a23f-4ee9-97da-db0307bc795e
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8286701497208666262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997797747087481123}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5395243310053718192
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997797747087481123}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1198642181321114625
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997797747087481123}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5761583359139220930
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997797747087481123}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1727618160743797215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997797747087481123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_42032bf9-a23f-4ee9-97da-db0307bc795e\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"face_ec2d0bfa-cfa7-4abe-bed8-72425bf75d19\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_RoofSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_f0a8edc1-e8a7-42e4-be18-83d491397ff5\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            1\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_GroundSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_c46ffa34-e462-409d-85eb-90ae2ba3a447\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            2\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_WallSurface\"\r\n        }\r\n      ],\r\n      \"attributes\":
+    [\r\n        {\r\n          \"key\": \"brid:function\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u4E0D\u660E\"\r\n        },\r\n       
+    {\r\n          \"key\": \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n         
+    \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &4987751472515150233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3895540512117827193}
+  - component: {fileID: 4060573114157361389}
+  - component: {fileID: 7174279475623030964}
+  - component: {fileID: 782275266584693118}
+  - component: {fileID: 6523292137401723498}
+  m_Layer: 0
+  m_Name: brid_47394200-b229-41ee-a7af-5933eaac6d95
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3895540512117827193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987751472515150233}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4060573114157361389
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987751472515150233}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7174279475623030964
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987751472515150233}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &782275266584693118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987751472515150233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &6523292137401723498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987751472515150233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_47394200-b229-41ee-a7af-5933eaac6d95\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_47394200-b229-41ee-a7af-5933eaac6d95_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_4eb1ac30-52ba-4c09-8e1c-344a30660f26\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_WallSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_397a6063-0913-4a73-ab79-738da639c347\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterFloorSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_ef60730c-66f7-4806-8e13-868af7a51311\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            3\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_GroundSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_8343d8a3-356d-42b8-a70c-c77447f1805a\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            4\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterCeilingSurface\"\r\n        }\r\n      ],\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"brid:function\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"\u9053\u8DEF\u6A4B\"\r\n       
+    },\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n         
+    \"key\": \"uro:bridDataQualityAttribute\",\r\n          \"type\": \"AttributeSet\",\r\n         
+    \"value\": [\r\n            {\r\n              \"key\": \"uro:DataQualityAttribute\",\r\n             
+    \"type\": \"AttributeSet\",\r\n              \"value\": [\r\n               
+    {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &5678481248527555687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7274114020824649520}
+  - component: {fileID: 3009299579092380291}
+  - component: {fileID: 7867568063820912671}
+  - component: {fileID: 1703843107740306943}
+  - component: {fileID: 918031564613669901}
+  m_Layer: 0
+  m_Name: brid_3d90539c-7fa2-482a-a7f9-3ba7ed853d6a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7274114020824649520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678481248527555687}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3009299579092380291
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678481248527555687}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7867568063820912671
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678481248527555687}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1703843107740306943
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678481248527555687}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &918031564613669901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678481248527555687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_3d90539c-7fa2-482a-a7f9-3ba7ed853d6a\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_3d90539c-7fa2-482a-a7f9-3ba7ed853d6a_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_e673f8fe-d1de-47cb-9c21-6f5f8a55f3ef\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_WallSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_995c8754-9f83-4607-b082-3fdeb70ec384\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_GroundSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_8db449fe-cc1c-4a35-8d86-6d661c9384ed\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            3\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_11a5eb1f-3021-4e1a-8947-8be5e3fbcba1\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            4\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_RoofSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_8c6c47dc-bd2e-44bd-bd3c-161764dc0933\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            5\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterFloorSurface\"\r\n        }\r\n      ],\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"brid:function\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"\u4E0D\u660E\"\r\n        },\r\n       
+    {\r\n          \"key\": \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n         
+    \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &5809157365669411404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 251364662593716777}
+  - component: {fileID: 6991859005943112306}
+  - component: {fileID: 3935082883851120069}
+  - component: {fileID: 7057165947056637258}
+  - component: {fileID: 7615114460172204937}
+  m_Layer: 0
+  m_Name: brid_4c46de28-72ea-4d26-96a7-aadd7c35cf4b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &251364662593716777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809157365669411404}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6991859005943112306
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809157365669411404}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3935082883851120069
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809157365669411404}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7057165947056637258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809157365669411404}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &7615114460172204937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5809157365669411404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_4c46de28-72ea-4d26-96a7-aadd7c35cf4b\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"face_f511cfab-50cc-4012-8bd8-a8dbfe4cdb2d\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_WallSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_e784dacb-9d15-4d38-b178-2daa4be38b8a\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            1\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_fb41eb6e-bada-4a6b-8d8c-06a5b5ba9493\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_GroundSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_1da3be40-f2fb-48e3-8708-0ae0824c63ad\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            3\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_RoofSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_c0b00bf9-a82b-4924-ad5c-be10518d6537\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            4\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterFloorSurface\"\r\n        }\r\n      ],\r\n      \"attributes\": [\r\n       
+    {\r\n          \"key\": \"brid:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u9053\u8DEF\u6A4B\"\r\n        },\r\n        {\r\n          \"key\":
+    \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n          \"value\":
+    \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &5971502731834838369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1572714566085345953}
+  - component: {fileID: 8348250886708821713}
+  - component: {fileID: 3862219819880855955}
+  - component: {fileID: 5868109043502372706}
+  - component: {fileID: 3698851455796024168}
+  m_Layer: 0
+  m_Name: brid_3c0cc5dc-3d27-4fa2-b527-2c4b4da79fac
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1572714566085345953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5971502731834838369}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8348250886708821713
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5971502731834838369}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3862219819880855955
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5971502731834838369}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5868109043502372706
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5971502731834838369}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &3698851455796024168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5971502731834838369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_3c0cc5dc-3d27-4fa2-b527-2c4b4da79fac\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_3c0cc5dc-3d27-4fa2-b527-2c4b4da79fac_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_22969c7a-1d24-446c-81c1-99f327201f33\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_ba7dfd68-5a2b-4973-b2e0-889bd056ea5b\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_d2ecdde2-0f47-4882-a661-46d367121dae\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            3\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterFloorSurface\"\r\n        }\r\n      ],\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"brid:function\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"\u4E0D\u660E\"\r\n        },\r\n       
+    {\r\n          \"key\": \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n         
+    \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &6380159779557299203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6343131407987594682}
+  - component: {fileID: 7121918323695065235}
+  - component: {fileID: 6057345460037447002}
+  - component: {fileID: 8480136413802750072}
+  - component: {fileID: 5057420131795984783}
+  m_Layer: 0
+  m_Name: brid_47394200-b229-41ee-a7af-5933eaac6d95_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6343131407987594682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380159779557299203}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7121918323695065235
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380159779557299203}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6057345460037447002
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380159779557299203}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8480136413802750072
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380159779557299203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &5057420131795984783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380159779557299203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_47394200-b229-41ee-a7af-5933eaac6d95_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &6928190627919575818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631335453367812940}
+  - component: {fileID: 4464448917821452033}
+  - component: {fileID: 9116986316993704962}
+  - component: {fileID: 2975998172890480160}
+  - component: {fileID: 4080762170454220893}
+  m_Layer: 0
+  m_Name: brid_3c0cc5dc-3d27-4fa2-b527-2c4b4da79fac_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1631335453367812940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928190627919575818}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4464448917821452033
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928190627919575818}
+  m_Mesh: {fileID: 0}
+--- !u!23 &9116986316993704962
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928190627919575818}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2975998172890480160
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928190627919575818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4080762170454220893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928190627919575818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_3c0cc5dc-3d27-4fa2-b527-2c4b4da79fac_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &7364088798229744550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3863145133512153064}
+  - component: {fileID: 7969446173930786273}
+  - component: {fileID: 11145594912641114}
+  - component: {fileID: 4829083451528504233}
+  - component: {fileID: 1596898789099271134}
+  m_Layer: 0
+  m_Name: brid_70ed0764-9cb2-4b3a-beba-653ae5d5d6cf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3863145133512153064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364088798229744550}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7969446173930786273
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364088798229744550}
+  m_Mesh: {fileID: 0}
+--- !u!23 &11145594912641114
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364088798229744550}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4829083451528504233
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364088798229744550}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1596898789099271134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364088798229744550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_70ed0764-9cb2-4b3a-beba-653ae5d5d6cf\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_70ed0764-9cb2-4b3a-beba-653ae5d5d6cf_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_e23d1d88-0da4-4eba-b8e2-6687388bc3e1\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterFloorSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_58be4d27-a271-4cc0-90b6-9789ed1ecf6c\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_b86a6038-f8e5-4391-8110-207d18560cc6\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            3\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        }\r\n      ],\r\n      \"attributes\": [\r\n       
+    {\r\n          \"key\": \"brid:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u4E0D\u660E\"\r\n        },\r\n        {\r\n          \"key\":
+    \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n          \"value\":
+    \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &7407961328968798258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5944804351099355519}
+  - component: {fileID: 1128627563690344944}
+  - component: {fileID: 2868558267604537545}
+  - component: {fileID: 6998565452669823837}
+  - component: {fileID: 5482988791486368559}
+  m_Layer: 0
+  m_Name: brid_a554e4c8-ccd0-4f38-8bad-3654500224b9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5944804351099355519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407961328968798258}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1128627563690344944
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407961328968798258}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2868558267604537545
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407961328968798258}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6998565452669823837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407961328968798258}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &5482988791486368559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407961328968798258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_a554e4c8-ccd0-4f38-8bad-3654500224b9\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"face_f95763b0-32ca-43b8-8602-b65207bf9e02\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_GroundSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_edba0e14-61fc-4b48-b029-6dc4e4a5448c\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            1\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_6993e686-e77a-4779-8705-b499550a7bc1\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            2\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterFloorSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_6190a67a-f46b-4f52-8ef5-42df678981e9\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            3\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_RoofSurface\"\r\n        }\r\n      ],\r\n      \"attributes\": [\r\n       
+    {\r\n          \"key\": \"brid:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u4E0D\u660E\"\r\n        },\r\n        {\r\n          \"key\":
+    \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n          \"value\":
+    \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &7437539667226842269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4645434492199697908}
+  - component: {fileID: 8066594524151993049}
+  - component: {fileID: 3850058387541040845}
+  - component: {fileID: 7596359316621878302}
+  - component: {fileID: 3785297001182856518}
+  m_Layer: 0
+  m_Name: brid_3c670889-a497-47a6-bc88-15f1ff162c78
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4645434492199697908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437539667226842269}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8066594524151993049
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437539667226842269}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3850058387541040845
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437539667226842269}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7596359316621878302
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437539667226842269}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &3785297001182856518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437539667226842269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_3c670889-a497-47a6-bc88-15f1ff162c78\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_3c670889-a497-47a6-bc88-15f1ff162c78_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_cf25611d-64b9-407a-bd13-6537a8909c42\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_WallSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_364061fb-2685-4bca-8529-d80c1ec574fe\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_GroundSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_a9c6a185-9134-432c-9e2d-90dd392559fa\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            3\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_RoofSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_63710a93-5a9d-496b-ae7a-cdacef77c13c\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            4\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_18e8b9fe-b267-4a08-9120-42d9d88270cd\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            5\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterFloorSurface\"\r\n        }\r\n      ],\r\n      \"attributes\": [\r\n       
+    {\r\n          \"key\": \"brid:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u4E0D\u660E\"\r\n        },\r\n        {\r\n          \"key\":
+    \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n          \"value\":
+    \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &7490887916388014428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5626611871400885311}
+  - component: {fileID: 3953157215331548489}
+  - component: {fileID: 7450920895504361785}
+  - component: {fileID: 5909017232885915676}
+  - component: {fileID: 930975477497766907}
+  m_Layer: 0
+  m_Name: brid_6f7b39cd-b7bd-43a5-85ee-1c2d5237b350_cons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5626611871400885311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490887916388014428}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3953157215331548489
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490887916388014428}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7450920895504361785
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490887916388014428}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5909017232885915676
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490887916388014428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &930975477497766907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490887916388014428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_6f7b39cd-b7bd-43a5-85ee-1c2d5237b350_cons\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &7919039654663856464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8322110081314729063}
+  - component: {fileID: 8795419489736274464}
+  - component: {fileID: 7945712167515270872}
+  - component: {fileID: 3137638204810798412}
+  - component: {fileID: 7107742926725617815}
+  m_Layer: 0
+  m_Name: brid_6f7b39cd-b7bd-43a5-85ee-1c2d5237b350
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8322110081314729063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7919039654663856464}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8795419489736274464
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7919039654663856464}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7945712167515270872
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7919039654663856464}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3137638204810798412
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7919039654663856464}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &7107742926725617815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7919039654663856464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_6f7b39cd-b7bd-43a5-85ee-1c2d5237b350\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_6f7b39cd-b7bd-43a5-85ee-1c2d5237b350_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_60d5bbf3-c457-48fb-bf64-3b23161ce4f8\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_GroundSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_4b986b67-92f4-477a-a858-84d6f374b237\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_RoofSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_0f884363-4228-46e5-ae72-d7bb29eddde2\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            3\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterCeilingSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_3fadadc9-a424-48ab-a7b7-4449a87e5711\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            4\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_154fb2c0-7f9d-41ec-a802-a76be2acc1f6\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            5\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterFloorSurface\"\r\n        }\r\n      ],\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"brid:function\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"\u4E0D\u660E\"\r\n        },\r\n       
+    {\r\n          \"key\": \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n         
+    \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &8201348096801782136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5483966641956129330}
+  m_Layer: 0
+  m_Name: 53393586_brid_6697_op.gml
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5483966641956129330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201348096801782136}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1649389903501918313}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8808325113574282266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5599951047871039934}
+  - component: {fileID: 1949210949550903434}
+  - component: {fileID: 1784089743670370313}
+  - component: {fileID: 5412643903209763495}
+  - component: {fileID: 4417871580550186942}
+  m_Layer: 0
+  m_Name: brid_82c86037-30b8-4b16-8e9d-fb5eb1042648
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5599951047871039934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808325113574282266}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1949210949550903434
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808325113574282266}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1784089743670370313
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808325113574282266}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5412643903209763495
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808325113574282266}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4417871580550186942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808325113574282266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_82c86037-30b8-4b16-8e9d-fb5eb1042648\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"face_25953906-155f-4785-9e7e-0bcf733c0aa2\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_GroundSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_f3ab9623-2f6e-4e60-af6d-b2188754f855\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            1\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_RoofSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_a7562efc-93c1-4dd5-a812-14ecf0ea7346\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            2\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_WallSurface\"\r\n        }\r\n      ],\r\n      \"attributes\":
+    [\r\n        {\r\n          \"key\": \"brid:function\",\r\n          \"type\":
+    \"String\",\r\n          \"value\": \"\u4E0D\u660E\"\r\n        },\r\n       
+    {\r\n          \"key\": \"core:creationdate\",\r\n          \"type\": \"Date\",\r\n         
+    \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n          \"key\": \"uro:bridDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2
+--- !u!1 &9173080214984127846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8919345438645992349}
+  - component: {fileID: 855338374247154973}
+  - component: {fileID: 2210517708177166658}
+  - component: {fileID: 6734181474349966972}
+  - component: {fileID: 4515747898419813730}
+  m_Layer: 0
+  m_Name: brid_d2553f7e-db51-465d-b6a7-b2f904ce35d4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8919345438645992349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173080214984127846}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1649389903501918313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &855338374247154973
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173080214984127846}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2210517708177166658
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173080214984127846}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6734181474349966972
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173080214984127846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4515747898419813730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173080214984127846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"brid_d2553f7e-db51-465d-b6a7-b2f904ce35d4\",\r\n      \"cityObjectIndex\":
+    [\r\n        0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_Bridge\",\r\n     
+    \"children\": [\r\n        {\r\n          \"gmlID\": \"brid_d2553f7e-db51-465d-b6a7-b2f904ce35d4_cons\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            0\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_BridgeConstructionElement\"\r\n        },\r\n       
+    {\r\n          \"gmlID\": \"face_7744ba26-d912-42b2-9244-a168d4d44272\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            1\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_GroundSurface\"\r\n        },\r\n        {\r\n         
+    \"gmlID\": \"face_9d9db1d5-a7b5-4914-80e2-5614af6f39fe\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            2\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_OuterFloorSurface\"\r\n        },\r\n        {\r\n          \"gmlID\":
+    \"face_44ddf64e-707c-4217-954f-e0979719999d\",\r\n          \"cityObjectIndex\":
+    [\r\n            0,\r\n            3\r\n          ],\r\n          \"cityObjectType\":
+    \"COT_WallSurface\"\r\n        },\r\n        {\r\n          \"gmlID\": \"face_d8662818-23c1-4bf0-8c84-57a8466c421e\",\r\n         
+    \"cityObjectIndex\": [\r\n            0,\r\n            4\r\n          ],\r\n         
+    \"cityObjectType\": \"COT_OuterCeilingSurface\"\r\n        }\r\n      ],\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"brid:function\",\r\n         
+    \"type\": \"String\",\r\n          \"value\": \"\u9053\u8DEF\u6A4B\"\r\n       
+    },\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n          \"type\":
+    \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n        {\r\n         
+    \"key\": \"uro:bridDataQualityAttribute\",\r\n          \"type\": \"AttributeSet\",\r\n         
+    \"value\": [\r\n            {\r\n              \"key\": \"uro:DataQualityAttribute\",\r\n             
+    \"type\": \"AttributeSet\",\r\n              \"value\": [\r\n               
+    {\r\n                  \"key\": \"uro:appearanceSrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u7A7A\u4E2D\u5199\u771F\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u672A\u4F5C\u6210\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod2\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\uFF08\u516C\u5171\u6E2C\u91CF\u53C8\u306F\u57FA\u672C\u6E2C\u91CF\u3067\u306F\u306A\u3044\uFF09\u822A\u7A7A\u30EC\u30FC\u30B6\u6E2C\u91CF\u306E\u6E2C\u91CF\u6210\u679C\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lod1HeightType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u822A\u7A7A\u5199\u771F\u56F3\u5316_\u6700\u9AD8\u9AD8\u3055\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:lodType\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u9053\u8DEF\u6A4B\u3001\u685F\u9053\u6A4B\u53CA\u3073\u9244\u9053\u6A4B\u306F\u3001\u5E8A\u7248\u53CA\u3073\u4E3B\u6841\u306B\u3088\u3063\u3066\u3001\u539A\u307F\u3068\u9AD8\u3055\u3092\u3082\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u6A4B\u811A\u306A\u3069\u306E\u69CB\u9020\u4E0A\u4E0D\u53EF\u6B20\u306A\u90E8\u6750\u3092\u8868\u73FE\u3057\u3066\u3082\u3088\u3044\u3002\u6A2A\u65AD\u6B69\u9053\u6A4B\u3001\u30DA\u30C7\u30B9\u30C8\u30EA\u30A2\u30F3\u30C7\u30C3\u30AD\u53CA\u3073\u8DE8\u7DDA\u6A4B\u306F\u3001\u672C\u4F53\uFF08\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\uFF09\u3092\u3001\u305D\u308C\u305E\u308C\u3092\u539A\u307F\u3068\u9AD8\u3055\u3092\u6301\u3063\u305F\u7ACB\u4F53\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\u4E0A\u90E8\u5DE5\u3001\u968E\u6BB5\u53CA\u3073\u8E0A\u308A\u5834\u306F\u5206\u3051\u3066\u53D6\u5F97\u3067\u304D\u308B\u3002\u968E\u6BB5\u306E\u500B\u3005\u306E\u6BB5\u306F\u53D6\u5F97\u305B\u305A\u3001\u4E0B\u7AEF\u3068\u4E0A\u7AEF\u3092\u7D50\u3093\u3060\u9762\u3068\u3057\u3066\u8868\u73FE\u3059\u308B\u3002\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u4E0D\u660E\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n   
+    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 2

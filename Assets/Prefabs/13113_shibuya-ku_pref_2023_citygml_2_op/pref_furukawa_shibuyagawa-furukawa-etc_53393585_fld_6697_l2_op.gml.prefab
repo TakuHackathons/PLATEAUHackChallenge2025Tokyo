@@ -1,0 +1,2717 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &97519827848387036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2185963867688738423}
+  - component: {fileID: 3495990683764986193}
+  - component: {fileID: 468389769225499303}
+  - component: {fileID: 5966650784511484786}
+  - component: {fileID: 2928995753038934210}
+  m_Layer: 0
+  m_Name: fld_24bafaff-2c40-4887-a9e8-9968c70a74c3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2185963867688738423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97519827848387036}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3495990683764986193
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97519827848387036}
+  m_Mesh: {fileID: 0}
+--- !u!23 &468389769225499303
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97519827848387036}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5966650784511484786
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97519827848387036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &2928995753038934210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97519827848387036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_24bafaff-2c40-4887-a9e8-9968c70a74c3\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &903440452353236156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7628797515226034941}
+  - component: {fileID: 3763847577708310412}
+  - component: {fileID: 1115837571361515062}
+  - component: {fileID: 3273030323413730807}
+  - component: {fileID: 4067959083650426544}
+  m_Layer: 0
+  m_Name: fld_5692a4a1-07d7-43c8-83a5-e3c642eafb3b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7628797515226034941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903440452353236156}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3763847577708310412
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903440452353236156}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1115837571361515062
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903440452353236156}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3273030323413730807
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903440452353236156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4067959083650426544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903440452353236156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_5692a4a1-07d7-43c8-83a5-e3c642eafb3b\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"5m\u4EE5\u4E0A10m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &1318674366995359985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063381977391999159}
+  - component: {fileID: 8650846246759972326}
+  - component: {fileID: 8794377414908017129}
+  - component: {fileID: 2903754252474626140}
+  - component: {fileID: 800468876286997037}
+  m_Layer: 0
+  m_Name: fld_f8f5fc27-48df-4fd9-a59a-0bd1cdad231d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1063381977391999159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318674366995359985}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8650846246759972326
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318674366995359985}
+  m_Mesh: {fileID: 0}
+--- !u!23 &8794377414908017129
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318674366995359985}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2903754252474626140
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318674366995359985}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &800468876286997037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318674366995359985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_f8f5fc27-48df-4fd9-a59a-0bd1cdad231d\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &1771399130423209888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7669666160326021296}
+  m_Layer: 0
+  m_Name: pref_furukawa_shibuyagawa-furukawa-etc_53393585_fld_6697_l2_op.gml
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7669666160326021296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771399130423209888}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7266804828792634467}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2052655836496943082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2857120282208607151}
+  - component: {fileID: 120262290807829911}
+  - component: {fileID: 3692208868824263657}
+  - component: {fileID: 495790692615945185}
+  - component: {fileID: 9086354895699382606}
+  m_Layer: 0
+  m_Name: fld_46c8178a-a9ea-4321-91c2-58475619ca0f
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2857120282208607151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052655836496943082}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &120262290807829911
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052655836496943082}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3692208868824263657
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052655836496943082}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &495790692615945185
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052655836496943082}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &9086354895699382606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052655836496943082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_46c8178a-a9ea-4321-91c2-58475619ca0f\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"3m\u4EE5\u4E0A5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &2265731146694946644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6077167496346299288}
+  - component: {fileID: 7141780015225476168}
+  - component: {fileID: 1404037563784712256}
+  - component: {fileID: 431269773471510548}
+  - component: {fileID: 3694552374085881362}
+  m_Layer: 0
+  m_Name: fld_ae768090-888b-47ad-8469-b4a527a43353
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6077167496346299288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2265731146694946644}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7141780015225476168
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2265731146694946644}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1404037563784712256
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2265731146694946644}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &431269773471510548
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2265731146694946644}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &3694552374085881362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2265731146694946644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_ae768090-888b-47ad-8469-b4a527a43353\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &2363398322249384096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7546154112782700449}
+  - component: {fileID: 4672090204243226006}
+  - component: {fileID: 7472066167618693730}
+  - component: {fileID: 8973233505419317674}
+  - component: {fileID: 9027677070552466019}
+  m_Layer: 0
+  m_Name: fld_8e2ca3ae-55cd-4dcd-b6f7-7c3c564a21cc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7546154112782700449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363398322249384096}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4672090204243226006
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363398322249384096}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7472066167618693730
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363398322249384096}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8973233505419317674
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363398322249384096}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &9027677070552466019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363398322249384096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_8e2ca3ae-55cd-4dcd-b6f7-7c3c564a21cc\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &2680973136716825036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8521376336599742881}
+  - component: {fileID: 8601652546069057417}
+  - component: {fileID: 2033797238188828194}
+  - component: {fileID: 4242112715518700794}
+  - component: {fileID: 7347376683948950885}
+  m_Layer: 0
+  m_Name: fld_5a797d0d-29ea-4a51-8b5a-2681463e3d26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8521376336599742881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680973136716825036}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8601652546069057417
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680973136716825036}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2033797238188828194
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680973136716825036}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4242112715518700794
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680973136716825036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &7347376683948950885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680973136716825036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_5a797d0d-29ea-4a51-8b5a-2681463e3d26\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"3m\u4EE5\u4E0A5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &2959033128103029135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8701531203544638674}
+  - component: {fileID: 8895835511402278102}
+  - component: {fileID: 3346557187756596805}
+  - component: {fileID: 7420531508464731175}
+  - component: {fileID: 5321062526937922752}
+  m_Layer: 0
+  m_Name: fld_c596e942-0251-4f9e-869a-f0fc9dab66db
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8701531203544638674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959033128103029135}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8895835511402278102
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959033128103029135}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3346557187756596805
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959033128103029135}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7420531508464731175
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959033128103029135}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &5321062526937922752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959033128103029135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_c596e942-0251-4f9e-869a-f0fc9dab66db\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u4EE5\u4E0A3m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &3074878040140238150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1458642969625566237}
+  - component: {fileID: 199672049704470125}
+  - component: {fileID: 901066961025195388}
+  - component: {fileID: 1772519888960781895}
+  - component: {fileID: 1496595081557431984}
+  m_Layer: 0
+  m_Name: fld_cb3acc72-4df2-43c5-8fee-d1f09cf51af3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1458642969625566237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3074878040140238150}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &199672049704470125
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3074878040140238150}
+  m_Mesh: {fileID: 0}
+--- !u!23 &901066961025195388
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3074878040140238150}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1772519888960781895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3074878040140238150}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1496595081557431984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3074878040140238150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_cb3acc72-4df2-43c5-8fee-d1f09cf51af3\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &4164115352341034570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7266804828792634467}
+  m_Layer: 0
+  m_Name: LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7266804828792634467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4164115352341034570}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8086174925549311908}
+  - {fileID: 2185963867688738423}
+  - {fileID: 9037797672718244787}
+  - {fileID: 6077167496346299288}
+  - {fileID: 1063381977391999159}
+  - {fileID: 4637447086259557847}
+  - {fileID: 5505390046232456883}
+  - {fileID: 1458642969625566237}
+  - {fileID: 4324770511329908766}
+  - {fileID: 7546154112782700449}
+  - {fileID: 3977829686266688572}
+  - {fileID: 4515031401050509104}
+  - {fileID: 8701531203544638674}
+  - {fileID: 2857120282208607151}
+  - {fileID: 4370186284431406683}
+  - {fileID: 8521376336599742881}
+  - {fileID: 7628797515226034941}
+  m_Father: {fileID: 7669666160326021296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4720903247224133787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4515031401050509104}
+  - component: {fileID: 7732741311576961684}
+  - component: {fileID: 143090347542753356}
+  - component: {fileID: 7051949768652720171}
+  - component: {fileID: 8538359615794500131}
+  m_Layer: 0
+  m_Name: fld_b90cb87f-4eb6-489f-b0a1-b80cc7783c4a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4515031401050509104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720903247224133787}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7732741311576961684
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720903247224133787}
+  m_Mesh: {fileID: 0}
+--- !u!23 &143090347542753356
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720903247224133787}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7051949768652720171
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720903247224133787}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &8538359615794500131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720903247224133787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_b90cb87f-4eb6-489f-b0a1-b80cc7783c4a\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u4EE5\u4E0A3m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &4745779996557496156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4324770511329908766}
+  - component: {fileID: 6879312986738349711}
+  - component: {fileID: 3731699528070460825}
+  - component: {fileID: 2800437472996370644}
+  - component: {fileID: 1448868158280109931}
+  m_Layer: 0
+  m_Name: fld_d10df0b3-3655-4b71-9381-882fc2731fb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4324770511329908766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745779996557496156}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6879312986738349711
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745779996557496156}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3731699528070460825
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745779996557496156}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2800437472996370644
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745779996557496156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1448868158280109931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745779996557496156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_d10df0b3-3655-4b71-9381-882fc2731fb1\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &5383306834015392244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4637447086259557847}
+  - component: {fileID: 5978912451324560909}
+  - component: {fileID: 5438162760604649799}
+  - component: {fileID: 8349176050094158748}
+  - component: {fileID: 23447930978138909}
+  m_Layer: 0
+  m_Name: fld_be7e6a24-fc43-4dca-bcc5-7a1adbe60943
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4637447086259557847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383306834015392244}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5978912451324560909
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383306834015392244}
+  m_Mesh: {fileID: 0}
+--- !u!23 &5438162760604649799
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383306834015392244}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8349176050094158748
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383306834015392244}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &23447930978138909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383306834015392244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_be7e6a24-fc43-4dca-bcc5-7a1adbe60943\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &6733290840812222207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8086174925549311908}
+  - component: {fileID: 8665795550633293183}
+  - component: {fileID: 3347471249783281957}
+  - component: {fileID: 6989391624733657326}
+  - component: {fileID: 413265192022270150}
+  m_Layer: 0
+  m_Name: fld_2c720258-c560-4178-a7a4-a8ef38a3d7e8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8086174925549311908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733290840812222207}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8665795550633293183
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733290840812222207}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3347471249783281957
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733290840812222207}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6989391624733657326
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733290840812222207}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &413265192022270150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733290840812222207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_2c720258-c560-4178-a7a4-a8ef38a3d7e8\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &7732769999541662981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4370186284431406683}
+  - component: {fileID: 2859160014574029290}
+  - component: {fileID: 4566874724202627809}
+  - component: {fileID: 9210541450464692426}
+  - component: {fileID: 4972347307074817193}
+  m_Layer: 0
+  m_Name: fld_2ca13c8c-926c-4861-b017-eed5b6cbc75d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4370186284431406683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732769999541662981}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2859160014574029290
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732769999541662981}
+  m_Mesh: {fileID: 0}
+--- !u!23 &4566874724202627809
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732769999541662981}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9210541450464692426
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732769999541662981}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &4972347307074817193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732769999541662981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_2ca13c8c-926c-4861-b017-eed5b6cbc75d\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"3m\u4EE5\u4E0A5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &7918350763302038470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5505390046232456883}
+  - component: {fileID: 4964105602366606810}
+  - component: {fileID: 6292135220589265647}
+  - component: {fileID: 783696559522406304}
+  - component: {fileID: 1684847088492744412}
+  m_Layer: 0
+  m_Name: fld_0cffe3da-5dad-40c4-a10e-87f7a5ba3acf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5505390046232456883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7918350763302038470}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4964105602366606810
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7918350763302038470}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6292135220589265647
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7918350763302038470}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &783696559522406304
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7918350763302038470}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1684847088492744412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7918350763302038470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_0cffe3da-5dad-40c4-a10e-87f7a5ba3acf\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &8976841939480201010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3977829686266688572}
+  - component: {fileID: 6654901687879389080}
+  - component: {fileID: 6153780029903603828}
+  - component: {fileID: 8970164996615890740}
+  - component: {fileID: 420149098046609571}
+  m_Layer: 0
+  m_Name: fld_8357282d-1afc-43ad-9de3-03183e0ba488
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3977829686266688572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976841939480201010}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6654901687879389080
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976841939480201010}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6153780029903603828
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976841939480201010}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8970164996615890740
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976841939480201010}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &420149098046609571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976841939480201010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_8357282d-1afc-43ad-9de3-03183e0ba488\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
+--- !u!1 &9176032167670710253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9037797672718244787}
+  - component: {fileID: 2911012375768778374}
+  - component: {fileID: 677104990848298463}
+  - component: {fileID: 7167200575683718728}
+  - component: {fileID: 3273620125794004522}
+  m_Layer: 0
+  m_Name: fld_7342aaa1-7c6d-4f65-9c60-59c17b087147
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &9037797672718244787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176032167670710253}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7266804828792634467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2911012375768778374
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176032167670710253}
+  m_Mesh: {fileID: 0}
+--- !u!23 &677104990848298463
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176032167670710253}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b8caa47aa663c244380ac4e3392a0935, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7167200575683718728
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176032167670710253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &3273620125794004522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176032167670710253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aa3402c43dcbc42be9e66957c705a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedCityObjects: "{\r\n  \"rootCityObjects\": [\r\n    {\r\n      \"gmlID\":
+    \"fld_7342aaa1-7c6d-4f65-9c60-59c17b087147\",\r\n      \"cityObjectIndex\": [\r\n       
+    0,\r\n        -1\r\n      ],\r\n      \"cityObjectType\": \"COT_WaterBody\",\r\n     
+    \"attributes\": [\r\n        {\r\n          \"key\": \"core:creationdate\",\r\n         
+    \"type\": \"Date\",\r\n          \"value\": \"2024-03-15\"\r\n        },\r\n       
+    {\r\n          \"key\": \"uro:RiverFloodingRiskAttribute\",\r\n          \"type\":
+    \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:adminType\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u90FD\u9053\u5E9C\u770C\"\r\n            },\r\n            {\r\n             
+    \"key\": \"uro:description\",\r\n              \"type\": \"String\",\r\n             
+    \"value\": \"\u53E4\u5DDD\u6C34\u7CFB\u6E0B\u8C37\u5DDD\u30FB\u53E4\u5DDD\u30FB\u76EE\u9ED2\u5DDD\u6C34\u7CFB\u76EE\u9ED2\u5DDD\u30FB\u5451\u5DDD\u6C34\u7CFB\u5451\u5DDD\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:rank\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"0.5m\u672A\u6E80\"\r\n           
+    },\r\n            {\r\n              \"key\": \"uro:scale\",\r\n             
+    \"type\": \"String\",\r\n              \"value\": \"L2\uFF08\u60F3\u5B9A\u6700\u5927\u898F\u6A21\uFF09\"\r\n           
+    }\r\n          ]\r\n        },\r\n        {\r\n          \"key\": \"uro:wtrDataQualityAttribute\",\r\n         
+    \"type\": \"AttributeSet\",\r\n          \"value\": [\r\n            {\r\n             
+    \"key\": \"uro:DataQualityAttribute\",\r\n              \"type\": \"AttributeSet\",\r\n             
+    \"value\": [\r\n                {\r\n                  \"key\": \"uro:geometrySrcDescLod1\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    },\r\n                {\r\n                  \"key\": \"uro:thematicSrcDesc\",\r\n                 
+    \"type\": \"String\",\r\n                  \"value\": \"\u305D\u306E\u4ED6\u306EGIS\u30C7\u30FC\u30BF\"\r\n               
+    }\r\n              ]\r\n            }\r\n          ]\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:class\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"flooded land\uFF08\u6D78\u6C34\u57DF\uFF09\"\r\n        },\r\n       
+    {\r\n          \"key\": \"wtr:function\",\r\n          \"type\": \"String\",\r\n         
+    \"value\": \"\u6D2A\u6C34\u6D78\u6C34\u60F3\u5B9A\u533A\u57DF\"\r\n        }\r\n     
+    ]\r\n    }\r\n  ],\r\n  \"outsideParent\": \"\"\r\n}"
+  infoForToolkits:
+    isTextureCombined: 1
+    isGranularityConverted: 0
+  granularity: 1
+  lod: 1
